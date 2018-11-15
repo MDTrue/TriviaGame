@@ -1,54 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Take the art quiz!</title>
-	<link rel="stylesheet" href="assets/css/reset.css">
-      <link rel="stylesheet" href="assets/css/style.css">
-      <link href="https://fonts.googleapis.com/css?family=Homemade+Apple|Nothing+You+Could+Do|Russo+One" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Take the art quiz!</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Homemade+Apple|Nothing+You+Could+Do|Russo+One" rel="stylesheet">
 </head>
+
 <body>
-	<div id="container">
-        <div class = "row" >
-            <div class = "col-lg-12">
-                
-            <h1>pick your favorite</h1>
+    <div id="container">
+        <div class="row">
+            <div class="col-lg-12">
+
+                <h1>pick your favorite</h1>
+            </div>
         </div>
-    </div>
-    <div class = "row" >
-            <div class = "col-lg-3">
-                <div class = "picture" id = "pictureOne">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="buttons">
+                    <img src="assets/images/phBadOne.png" class=" badArt" id="bad" height="200px"></img>
+                    <img src="" class="hiddenArt" id="hidden" height="400px"></img>
                 </div>
-                <div class = "col-lg-3">
-                        <div class = "picture" id = "pictureTwo">
-                        </div>
-                        <div class = "col-lg-3">
-                                <div class = "picture" id = "pictureThree">
-                                </div>
-                                <div class = "col-lg-3">
-                                        <div class = "picture" id = "pictureFour">
-                                        </div>
-                
-           
+                <div class="col-lg-3">
+                    <img src="assets/images/phAestOne.png" class="aestArt" id="aest" height="200px"></img>
+                </div>
+                <div class="col-lg-3">
+                    <img src="assets/images/phTortOne.jpg" class="tortArt " id="tort" height="200px"></img>
+                </div>
+                <div class="col-lg-3">
+                    <img src="assets/images/phIntOne.png" class="intArt " id="int" height="200px"></img>
+                </div>
+
+            </div>
         </div>
     </div>
-    <div class = "row" >
-            <div class = "col-lg-6">
-                    <button type="button" id = "submit" class="btn btn-primary btn-lg btn-block">Click to submit</button>
-            
-           
+    <div class="row">
+        <div class="col-lg-6">
+            <button type="button" id="submit" class="btn btn-primary btn-lg btn-block">Click to submit</button>
+
+
         </div>
-        <div class = "col-lg-6">
-                <button type="button" id = "reset" class="btn btn-primary btn-lg btn-block">click to reset</button>
-        
-       
-    </div>
+        <div class="col-lg-6">
+            <button type="button" id="reset" class="btn btn-primary btn-lg btn-block">click to reset</button>
+
+
+        </div>
     </div>
 
 
-</div>
-<script src="https://code.jquery.com/jquery-3.1.0.slim.min.js" integrity="sha256-cRpWjoSOw5KcyIOaZNo4i6fZ9tKPhYYb6i5T9RSVJG8=" crossorigin="anonymous"></script>
-<script type="text/javascript" src="assets/javascript/game.js"></script>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.1.0.slim.min.js" integrity="sha256-cRpWjoSOw5KcyIOaZNo4i6fZ9tKPhYYb6i5T9RSVJG8="
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
 </body>
+
 </html>
