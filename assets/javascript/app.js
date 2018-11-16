@@ -24,20 +24,23 @@ $("#bad").on("click", function () {
 });
 $("#aest").on("click", function () {
     console.log("hello")
-    $("#bad, #tort, #int").hide();
+    $("#aest, #tort, #int, #bad").hide();
     aestScore ++
+    $(".hiddenArt").attr('src', "assets/images/imgAestOne.jpg"); 
     console.log(aestScore)
 });
 $("#tort").on("click", function () {
     console.log("hello")
-    $("#aest, #bad, #int").hide();
+    $("#aest, #tort, #int, #bad").hide();
     tortScore ++
+    $(".hiddenArt").attr('src', "assets/images/imgTortOne.jpeg"); 
     console.log(tortScore)
 });
 $("#int").on("click", function () {
     console.log("hello")
-    $("#aest, #bad, #tort").hide();
+    $("#aest, #tort, #int, #bad").hide();
     intScore ++
+    $(".hiddenArt").attr('src',"assets/images/imgIntOne.jpg" ); 
     console.log(intScore)
 });
 //user either commits seletion or resets and chooses another,  timer does not stop
